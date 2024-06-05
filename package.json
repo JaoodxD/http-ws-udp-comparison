@@ -1,0 +1,26 @@
+{
+  "name": "general-template",
+  "version": "1.0.0",
+  "description": "Batteries-excluded starter template for general-purpose node modules",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "standard | snazzy",
+    "lint:fix": "standard --fix | snazzy",
+    "test": "c8 --100 tap",
+    "bench": "node benchmark/bench.js",
+    "bench:compare": "node benchmark/compare.js",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "Maksym Shenderuk <jaood96@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "c8": "^9.1.0",
+    "husky": "^9.0.11",
+    "mitata": "^0.1.11",
+    "snazzy": "^9.0.0",
+    "standard": "^17.1.0",
+    "tap": "^19.0.2"
+  }
+}
