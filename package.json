@@ -21,7 +21,7 @@
     "mitata": "^0.1.11",
     "snazzy": "^9.0.0",
     "standard": "^17.1.0",
-    "tap": "^19.0.2"
+    "tap": "^21.5.0"
   },
   "dependencies": {
     "undici": "^6.21.1",
